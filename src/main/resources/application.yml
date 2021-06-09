@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/hufs_db
-    username: root
-    password: 1052
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://db-labelary.cwn26ebdtrvp.ap-northeast-2.rds.amazonaws.com:3306/labelary?useUnicode=true&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: fullstack
+    password: qwer1234
 
   jpa:
     hibernate:
@@ -12,3 +12,6 @@ spring:
       hibernate:
         format_sql: true
     show-sql: true
+
+  thymeleaf:
+    cache: false
