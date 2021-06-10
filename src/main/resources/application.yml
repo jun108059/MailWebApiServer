@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://db-labelary.cwn26ebdtrvp.ap-northeast-2.rds.amazonaws.com:3306/labelary?useUnicode=true&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
-    username: fullstack
-    password: qwer1234
+    username: ********
+    password: ********
 
   jpa:
     hibernate:
